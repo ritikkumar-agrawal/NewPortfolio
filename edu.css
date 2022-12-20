@@ -1,0 +1,53 @@
+.main {
+  padding: 2%;
+}
+.title{
+  margin-bottom: 7%;
+}
+.heading {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 2%;
+  border-bottom: 1px solid #181d31;
+}
+.time {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 550;
+  margin-bottom: 1%;
+  color: #900C3F;
+}
+.time::selection{
+  background-color: #900C3F;
+  color: #fdf6f0;
+}
+h1 {
+  margin: 3% 0 5% 0;
+  color: #181d31;
+}
+h1::selection {
+  background-color: #181d31;
+  color: #fdf6f0;
+}
+h2{
+  color: #181d31;
+}
+h2::selection{
+  background-color: #181d31;
+  color: #fdf6f0;
+}
+.part {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 180%;
+  width: 80%;
+}
+.part li{
+  list-style-type: none;
+}
+.part li::selection{
+  background-color: #000000;
+  color: #fdf6f0;
+}
+

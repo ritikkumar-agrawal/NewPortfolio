@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.para {
+  width: 65%;
+  padding: 2%;
+}
+.para p {
+  margin-bottom: 7%;
+  line-height: 180%;
+  color: #181d31;
+}
+.para p::selection {
+  background-color: #181d31;
+  color: #fdf6f0;
+}
+h1 {
+  margin: 5% auto 7% auto;
+  color: #181d31;
+}
+h1::selection {
+  background-color: #181d31;
+  color: #fdf6f0;
+}
+.photo {
+  width: 35%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

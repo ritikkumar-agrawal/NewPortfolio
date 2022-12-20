@@ -1,0 +1,46 @@
+.main {
+  padding: 2%;
+}
+.title {
+  margin-bottom: 7%;
+}
+h1::selection{
+  background-color: #181d31;
+  color: #ffffff;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+}
+.pr {
+  width: 100%;
+  padding: 2%;
+  /* border: 2px solid red; */
+  margin: 2%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 8px #000000;
+  border-radius: 2%;
+}
+.head {
+  display: flex;
+  align-items: center;
+  line-height: 180%;
+  margin-bottom: 2%;
+}
+.head img{
+    margin-right: 10%;
+}
+.head a{
+  color: #900C3F;
+}
+.head a::selection{
+  background-color: #900C3F;
+  color: #ffffff;
+}
+.description{
+    line-height: 180%;
+}
+.description::selection{
+  background-color: #181d31;
+  color: #ffffff;
+}
